@@ -1,8 +1,8 @@
-echo "Welcome to Number OT. Please wait, I'm preparing your system for work..."
+echo "Добро пожаловать в Number. Сейчас создадутся все нужные папки и файлы..."
 cd ~/Documents || exit
 mkdir -p number
 cd number || exit
-touch assumptions.txt logical_connections.txt social_networks.txt maybe.txt
+touch предположения.txt логические_связи.txt социальные_сети.txt возможные.txt
 echo "THIS PROGRAMM WAS MADE BY Tondo1313. https://github.com/Tondo1313/Number" > LICENCE.txt
-mkdir leads
+mkdir зацепки
 echo "your system was done for osint working. Look at the /Documents"
